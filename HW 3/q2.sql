@@ -1,0 +1,8 @@
+SELECT COUNT(DISTINCT college) FROM player_bios;
+
+/*
+ count 
+-------
+   125
+(1 row)
+*/
