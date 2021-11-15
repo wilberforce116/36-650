@@ -1,0 +1,8 @@
+You have list of Agile story statuses (“Ready”, “In Progress”, “Blocked”,
+“Completed”). You would like to store these values in your application and they
+will be accessed and searched several times but they won’t be changed. Which
+built-in data structure can be used? List or Tuple? And Why? 
+
+
+Answer:
+I would use a tuple in this situation. Tuples are immutable which would help avoid any accidental deletions.
